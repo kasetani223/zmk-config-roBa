@@ -102,6 +102,24 @@
             tapping-term-ms = <200>;
         };
 
+        mod_hold_to_layer_0: mod_hold_to_layer_0 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_HOLD_TO_LAYER_0";
+            #binding-cells = <1>;
+            bindings = <0>, <&to_layer_0>;
+
+            tapping-term-ms = <200>;
+        };
+
+        mod_hold_to_layer_1: mod_hold_to_layer_1 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_HOLD_TO_LAYER_1";
+            #binding-cells = <1>;
+            bindings = <0>, <&to_layer_1>;
+
+            tapping-term-ms = <200>;
+        };
+
         tog_on: toggle_layer_on_only {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
