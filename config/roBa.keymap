@@ -70,7 +70,7 @@
 &kp Q             &kp W         &kp E         &kp R            &kp T                                                     &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F            &kp G        &trans                      &trans           &kp H        &kp J  &kp K      &kp L    &lt 5 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V            &kp B        &lt 3 SPACE                 &lt 6 SPACE      &kp N        &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANG1  &lt 1 SPACE  &lt_to_layer_0 2 LANG2      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp SEMICOLON
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANG1  &lt 1 SPACE  &lt_to_layer_0 2 LANG2      &lt 2 BACKSPACE  &lt 1 ENTER                             &kp SEMICOLON
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
@@ -79,7 +79,7 @@
         CONTROL {
             bindings = <
 &kp ESC         &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp LC(EQUAL)        &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp HOME
-&kp TAB         &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(MINUS)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&trans          &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(MINUS)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
 &kp LEFT_SHIFT  &kp F2                  &kp F3              &kp F4                   &kp F5         &trans         &trans              &kp LG(R)            &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp RIGHT_SHIFT
 &trans          &trans                  &kp CAPSLOCK        &kp DEL                  &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
             >;
