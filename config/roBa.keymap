@@ -87,10 +87,10 @@
 
         NUM_SYMBOL {
             bindings = <
-&kp EXCLAMATION              &kp AT             &kp HASH              &kp DOLLAR             &kp BACKSLASH                         &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp UNDERSCORE
-&kp PERCENT                  &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &trans      &trans  &kp COLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&mt LEFT_SHIFT LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK      &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT PERIOD
-&trans                       &kp GRAVE          &kp CARET             &trans                 &trans            &trans      &trans  &trans                                                  &kp EQUAL
+&kp EXCLAMATION   &kp AT             &kp HASH              &kp DOLLAR             &kp BACKSLASH                         &kp SLASH     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp UNDERSCORE
+&kp PERCENT       &kp AMPERSAND      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SINGLE_QUOTE  &trans      &trans  &kp COLON     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK      &trans      &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+&kp LEFT_SHIFT    &kp GRAVE          &kp CARET             &trans                 &trans            &trans      &trans  &trans                                                  &mt RIGHT_SHIFT EQUAL
             >;
         };
 
