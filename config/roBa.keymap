@@ -78,8 +78,8 @@
 
         CONTROL {
             bindings = <
-&kp HOME        &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp LANGUAGE_1       &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LC(EQUAL)
-&kp END         &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LANGUAGE_2       &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(MINUS)
+&kp LANGUAGE_2  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp LC(EQUAL)        &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LC(HOME)
+&kp LANGUAGE_1  &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(MINUS)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(END)
 &kp LEFT_SHIFT  &kp F2                  &kp F3              &kp F4                   &kp F5         &trans         &trans              &kp LS(LC(V))        &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp LG(R)
 &trans          &trans                  &kp CAPSLOCK        &kp DEL                  &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
             >;
