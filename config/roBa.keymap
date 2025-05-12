@@ -81,7 +81,7 @@
 &trans          &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp LC(EQUAL)        &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LC(HOME)
 &kp LG(R)       &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(MINUS)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(END)
 &kp LEFT_SHIFT  &kp F2                  &kp F3              &kp F4                   &kp F5         &trans         &trans              &kp LS(LC(V))        &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp RIGHT_SHIFT
-&trans          &trans                  &kp CAPSLOCK        &kp DEL                  &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
+&kp CAPSLOCK    &trans                  &trans              &kp DEL                  &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
             >;
         };
 
@@ -90,7 +90,7 @@
 &kp PERIOD            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                           &kp BACKSLASH     &kp EXCLAMATION       &kp AT_SIGN            &kp HASH        &kp DOLLAR
 &kp MINUS             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON       &trans      &trans  &kp SEMICOLON     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT     &kp AMPERSAND
 &kp NUMBER_0          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE  &trans      &trans  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
-&mt LEFT_SHIFT EQUAL  &kp GRAVE     &kp CARET     &trans        &trans          &trans      &trans  &trans                                                                         &kp ASTERISK
+&mt LEFT_SHIFT EQUAL  &kp GRAVE     &kp CARET     &trans        &trans          &trans      &trans  &trans                                                                         &mt RIGHT_SHIFT ASTERISK
             >;
         };
 
