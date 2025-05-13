@@ -79,8 +79,8 @@
         CONTROL {
             bindings = <
 &kp ESCAPE      &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp LC(EQUAL)        &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LC(HOME)
-&kp LG(R)       &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(MINUS)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(END)
-&kp LEFT_SHIFT  &kp F2                  &kp F3              &kp F4                   &kp F5         &trans         &trans              &kp LS(LC(V))        &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp RIGHT_SHIFT
+&trans          &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(MINUS)        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(END)
+&kp LEFT_SHIFT  &kp F2                  &kp F3              &kp F4                   &kp F5         &trans         &trans              &kp LG(R)            &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp RIGHT_SHIFT
 &kp CAPSLOCK    &trans                  &trans              &kp DEL                  &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
             >;
         };
