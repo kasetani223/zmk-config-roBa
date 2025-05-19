@@ -78,19 +78,19 @@
 
         CONTROL {
             bindings = <
-&kp LC(EQUAL)  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                         &kp ESCAPE     &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp PAGE_UP
+&kp LC(EQUAL)  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                         &kp LG(L)      &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp PAGE_UP
 &kp LC(MINUS)  &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans  &kp LG(TAB)    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
 &trans         &kp LS(LC(P))           &kp LS(LC(F))       &kp LG(R)                &trans         &trans         &trans  &kp LC(LS(V))  &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp RIGHT_SHIFT
-&kp CAPSLOCK   &trans                  &trans              &kp DEL                  &kp LC(Z)      &kp LC(Y)      &trans  &trans                                                           &kp LG(L)
+&kp CAPSLOCK   &trans                  &trans              &kp ESC                  &kp LC(Z)      &kp LC(Y)      &trans  &trans                                                           &trans
             >;
         };
 
         NUMBER {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F10                                  &kp SLASH            &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans      &trans              &kp COLON            &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE
-&trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &trans              &kp NUMBER_0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT PERIOD
-&trans  &trans  &trans  &trans  &trans   &trans      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                            &trans
+&kp PERIOD               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                                       &kp F10              &kp F7  &kp F8  &kp F9  &trans
+&kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON       &trans      &trans              &kp F11              &kp F4  &kp F5  &kp F6  &trans
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE  &trans      &trans              &kp F12              &kp F1  &kp F2  &kp F3  &trans
+&trans                   &trans        &trans        &trans        &trans          &trans      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                          &trans
             >;
         };
 
