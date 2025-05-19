@@ -87,19 +87,19 @@
 
         NUMBER {
             bindings = <
-&kp PERIOD               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                                       &kp F10              &kp F7  &kp F8  &kp F9  &trans
+&kp PERIOD               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                                       &kp F12              &kp F7  &kp F8  &kp F9  &trans
 &kp MINUS                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON       &trans      &trans              &kp F11              &kp F4  &kp F5  &kp F6  &trans
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE  &trans      &trans              &kp F12              &kp F1  &kp F2  &kp F3  &trans
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE  &trans      &trans              &kp F10              &kp F1  &kp F2  &kp F3  &trans
 &trans                   &trans        &trans        &trans        &trans          &trans      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                          &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp GRAVE     &kp AMPERSAND    &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN                      &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
-&kp TILDE     &kp DOLLAR       &kp PERCENT   &kp CARET      &kp EQUAL         &trans      &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp SINGLE_QUOTE
-&kp QUESTION  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH       &kp PLUS          &trans      &trans  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES
-&trans        &trans           &trans        &trans         &trans            &trans      &trans  &trans                                                                     &trans
+&kp GRAVE      &kp TILDE    &kp LESS_THAN  &kp GREATER_THAN  &kp ASTERISK                      &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
+&kp AMPERSAND  &kp DOLLAR   &kp QUESTION   &kp EXCLAMATION   &kp EQUAL     &trans      &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp CARET      &kp PERCENT  &kp HASH       &kp AT_SIGN       &kp PLUS      &trans      &trans  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES
+&trans         &trans       &trans         &trans            &trans        &trans      &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
