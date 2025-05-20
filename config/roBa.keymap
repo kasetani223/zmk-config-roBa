@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                 &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                 &kp G        &trans                      &trans         &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &lt 3 SPACE                 &lt 6 SPACE    &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANGUAGE_1  &lt 2 SPACE  &lt_to_layer_0 3 LANG2      &kp BACKSPACE  &lt 1 ENTER                             &kp DELETE
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y                &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                        &kp G               &trans                      &trans         &kp H                &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B  &lt 3 SPACE                 &lt 6 SPACE    &mt RIGHT_CONTROL N  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt 1 SPACE         &lt_to_layer_0 2 LANG2      &kp BACKSPACE  &lt 1 ENTER                                     &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
@@ -78,10 +78,10 @@
 
         CONTROL {
             bindings = <
-&kp LC(EQUAL)  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                         &kp LG(L)        &kp LS(LC(TAB))     &kp UP_ARROW      &kp LC(TAB)          &kp PAGE_UP
-&kp LC(MINUS)  &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans  &kp LC(LA(TAB))  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp PAGE_DOWN
-&trans         &kp LS(LC(P))           &kp LS(LC(F))       &kp LG(R)                &trans         &trans         &trans  &kp HOME         &kp LA(LEFT_ARROW)  &kp LA(UP_ARROW)  &kp LA(RIGHT_ARROW)  &mt RIGHT_SHIFT END
-&kp CAPSLOCK   &trans                  &trans              &kp ESC                  &kp LC(Z)      &kp LC(Y)      &trans  &trans                                                                      &trans
+&kp LC(EQUAL)  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp LG(L)            &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp PAGE_UP
+&kp LC(MINUS)  &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp LC(LA(TAB))      &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&trans         &kp LS(LC(P))           &kp LS(LC(F))       &kp LG(R)                &trans         &trans         &trans              &kp HOME             &kp LC(V)        &kp LC(C)       &kp LC(X)        &mt RIGHT_SHIFT END
+&kp CAPSLOCK   &trans                  &trans              &kp ESC                  &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &trans
             >;
         };
 
@@ -116,10 +116,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
