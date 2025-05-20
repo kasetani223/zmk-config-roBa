@@ -65,18 +65,18 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y                &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G               &trans                      &trans         &kp H                &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B  &lt 3 SPACE                 &lt 6 SPACE    &mt RIGHT_CONTROL N  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt 1 SPACE         &lt_to_layer_0 2 LANG2      &kp BACKSPACE  &lt 1 ENTER                                     &kp ESCAPE
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                             &kp Y                &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                        &kp G               &trans                      &trans            &kp H                &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B  &lt 6 LANGUAGE_2            &lt 7 LANGUAGE_2  &mt RIGHT_CONTROL N  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&lt 6 TAB         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt 1 SPACE         &lt_to_layer_0 2 LANG2      &kp BACKSPACE     &lt 1 ENTER                                     &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
-        CONTROL {
+        Control {
             bindings = <
 &kp LC(EQUAL)   &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp PAGE_UP          &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp HOME
 &kp LC(MINUS)   &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp PAGE_DOWN        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
@@ -85,7 +85,7 @@
             >;
         };
 
-        NUMBER {
+        Number {
             bindings = <
 &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH                       &kp F12  &kp F7  &kp F8  &kp F9  &trans
 &kp PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS   &trans      &trans  &kp F11  &kp F4  &kp F5  &kp F6  &trans
@@ -94,7 +94,7 @@
             >;
         };
 
-        SYMBOL {
+        Symbol {
             bindings = <
 &kp GRAVE      &kp TILDE    &kp LESS_THAN    &kp GREATER_THAN  &kp COLON                           &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
 &kp AMPERSAND  &kp DOLLAR   &kp EXCLAMATION  &kp QUESTION      &kp UNDERSCORE  &trans      &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp SINGLE_QUOTE
@@ -105,7 +105,7 @@
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
-        MOUSE {
+        Mouse {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
@@ -114,7 +114,7 @@
             >;
         };
 
-        SCROLL {
+        Scroll {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
@@ -123,7 +123,16 @@
             >;
         };
 
-        DEVICE {
+        Device {
+            bindings = <
+&trans  &trans             &trans            &trans           &trans                      &trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_AUTO  &kp C_BRIGHTNESS_INC  &trans
+&trans  &kp K_PREVIOUS     &kp K_PLAY_PAUSE  &kp K_NEXT       &trans  &trans      &trans  &trans  &kp C_PREVIOUS        &kp C_PLAY_PAUSE       &kp C_NEXT            &trans
+&trans  &kp K_VOLUME_DOWN  &kp K_MUTE        &kp K_VOLUME_UP  &trans  &trans      &trans  &trans  &kp C_VOLUME_DOWN     &kp C_MUTE             &kp C_VOLUME_UP       &trans
+&trans  &trans             &trans            &trans           &trans  &trans      &trans  &trans                                                                     &trans
+            >;
+        };
+
+        Bluetooth {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &trans
