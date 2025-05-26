@@ -78,10 +78,10 @@
 
         Control {
             bindings = <
-&kp LC(EQUAL)   &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LG(LS(S))                                     &kp PAGE_UP          &kp LS(LC(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp HOME
-&kp LC(MINUS)   &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LG(TAB)    &trans         &trans              &kp PAGE_DOWN        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT  &trans                  &kp LS(LC(P))       &kp LC(LS(F))            &trans         &trans         &trans              &kp LS(LC(V))        &kp LC(V)        &kp LC(C)       &kp LC(X)        &kp LG(R)
-&kp CAPSLOCK    &trans                  &trans              &kp DELETE               &kp LC(Z)      &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
+&kp LC(LG(LEFT_ARROW))  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LC(LG(RIGHT_ARROW))                                     &kp LS(LG(S))        &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP      &kp HOME
+&kp LC(LS(TAB))         &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LC(TAB)              &trans         &trans              &kp LG(TAB)          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&kp LEFT_SHIFT          &trans                  &kp LC(MINUS)       &kp LC(EQUAL)            &trans                   &trans         &trans              &kp LS(LC(V))        &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LG(R)
+&kp CAPSLOCK            &trans                  &trans              &kp DELETE               &kp LC(Z)                &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                   &kp LG(L)
             >;
         };
 
