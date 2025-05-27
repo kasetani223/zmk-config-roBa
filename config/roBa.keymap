@@ -69,7 +69,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G                   &trans                      &trans            &kp H                   &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B      &lt 7 LANGUAGE_2            &lt 6 LANGUAGE_2  &mt RIGHT_CONTROL N     &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B      &lt 7 TAB                   &lt 6 LANGUAGE_2  &mt RIGHT_CONTROL N     &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_1  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 LANG2      &kp BACKSPACE     &lt_to_layer_0 1 ENTER                             &kp ESCAPE
             >;
 
