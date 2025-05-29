@@ -70,7 +70,7 @@
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G                   &trans                      &trans            &kp H                   &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B      &lt 7 TAB                   &lt 6 LANGUAGE_2  &mt RIGHT_CONTROL N     &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANGUAGE_1  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 LANG2      &kp BACKSPACE     &lt_to_layer_0 1 ENTER                             &kp ESCAPE
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE     &lt_to_layer_0 1 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
@@ -96,10 +96,10 @@
 
         Symbol {
             bindings = <
-&kp GRAVE      &kp TILDE    &kp LESS_THAN  &kp GREATER_THAN  &trans                         &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
-&kp AMPERSAND  &kp HASH     &kp AT_SIGN    &kp EXCLAMATION   &kp EQUAL  &trans      &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp SINGLE_QUOTE
-&kp CARET      &kp PERCENT  &kp DOLLAR     &kp QUESTION      &kp PLUS   &trans      &trans  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES
-&trans         &trans       &trans         &trans            &trans     &trans      &trans  &trans                                                                     &trans
+&kp GRAVE     &kp TILDE      &kp PLUS     &kp EQUAL        &trans                            &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
+&kp DOLLAR    &kp HASH       &kp AT_SIGN  &kp EXCLAMATION  &kp QUESTION  &trans      &trans  &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp ASTERISK  &kp AMPERSAND  &kp CARET    &kp PERCENT      &trans        &trans      &trans  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES
+&trans        &trans         &trans       &trans           &trans        &trans      &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
