@@ -67,10 +67,10 @@
 
         Default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G                   &trans                      &trans            &kp H                   &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &mt LEFT_CONTROL B      &lt 7 TAB                   &lt 6 LANGUAGE_2  &mt RIGHT_CONTROL N     &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 LANGUAGE_1  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE     &lt_to_layer_0 1 ENTER                             &kp ESCAPE
+&kp Q             &kp W         &kp E         &kp R                 &kp T                                                                 &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                 &kp G                   &trans                      &trans            &kp H                   &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &lt 3 B                 &lt 7 TAB                   &lt 6 LANGUAGE_2  &kp N                   &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANGUAGE_1  &lt_to_layer_0 1 SPACE  &lt_to_layer_0 2 LANG2      &kp BACKSPACE     &lt_to_layer_0 1 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
@@ -78,10 +78,10 @@
 
         Control {
             bindings = <
-&kp LC(LG(LEFT_ARROW))  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LC(LG(RIGHT_ARROW))                                     &kp LS(LG(S))        &kp PAGE_DOWN   &kp UP_ARROW    &kp PAGE_UP      &kp HOME
-&kp LC(LS(TAB))         &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LC(TAB)              &trans         &trans              &kp LG(TAB)          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT          &trans                  &kp LC(MINUS)       &kp LC(EQUAL)            &trans                   &trans         &trans              &kp LS(LC(V))        &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LG(R)
-&kp CAPSLOCK            &trans                  &trans              &kp DELETE               &kp LC(Z)                &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                   &kp LG(L)
+&kp LC(LG(LEFT_ARROW))  &kp LS(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LS(LG(RIGHT_ARROW))  &kp LC(LG(RIGHT_ARROW))                                     &kp LS(LG(S))        &kp PAGE_DOWN    &kp UP_ARROW    &kp PAGE_UP      &kp HOME
+&kp LC(LS(TAB))         &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &kp LC(TAB)              &trans         &trans              &kp LG(TAB)          &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&kp LEFT_SHIFT          &trans                  &kp LC(MINUS)       &kp LC(EQUAL)            &trans                   &trans         &trans              &trans               &kp LC(LS(TAB))  &trans          &kp LC(TAB)      &kp LG(R)
+&kp CAPSLOCK            &trans                  &trans              &kp DELETE               &kp LC(Z)                &kp LC(Y)      &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                                    &kp LG(L)
             >;
         };
 
@@ -138,6 +138,15 @@
 &trans  &kp C_PREV            &kp C_PLAY_PAUSE  &kp C_NEXT            &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp C_VOL_DN          &kp C_MUTE        &kp C_VOLUME_UP       &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                &trans            &trans                &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
